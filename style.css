@@ -1,0 +1,162 @@
+
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('white-background-with-blue-tech-hexagon_1017-19366.avif');
+    background-size: cover,contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+body.element {
+    background-image: url('abstract-technology-circuit-board_1035-14043.avif')max-width="100%";
+}
+
+header {
+    background-color: #0d0d0d;
+    padding: 40px;
+    text-align: left;
+    font-size: larger;
+    
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    text-align: right;
+    text-orientation: upright;
+    font-size: 30px;
+}
+nav ul-hover{
+    display: inline-flexbox;
+}
+nav li {
+    display: inline-block ;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;}
+.portfolio-item {
+    position: relative;
+    display: grid;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+.portfolio-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.portfolio-item p {
+    margin: 0;
+}
+
+.portfolio-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.portfolio-hover:hover {
+    display: block;
+}
+
+.portfolio-hover-content {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+form {
+   max-width: 600px;
+   margin: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 0px;
+ border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #444;
+}
+submit.button{
+    display: inline-block;
+padding: 10px 20px;
+background-color: #090909;
+color: #d3d2d2;
+text-decoration: none;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
+address {
+    font-style: italic;
+    color: #363636;
+    font-size: larger;
+    text-align: center;
+    }
+footer {
+    background-color: #121111;
+    padding: 10px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
